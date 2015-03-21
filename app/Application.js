@@ -7,13 +7,18 @@ Ext.define('App.Application', {
     extend: 'Ext.app.Application',
     
     name: 'App',
-    
+    requires:[
+        'App.common.PaperPanel',
+        'App.common.PaperForm'
+    ],
     views: [
-        // TODO: add views here
+        'Header',
+        'login.Login'
     ],
 
     controllers: [
-        'Root'
+        'Root',
+        'Main'
         // TODO: add controllers here
     ],
 
