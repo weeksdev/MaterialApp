@@ -3,5 +3,6 @@ Ext.define('App.common.PaperForm',{
     xtype:'paperform',
     bodyCls:'paper-panel',
     margin:10,
-    padding:10
+    padding:10,
+    border:0
 })

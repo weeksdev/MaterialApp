@@ -68,6 +68,6 @@ body{
     margin: auto;
     z-index:-1999;
 }
-.paper-panel{
+.paper-panel,.x-toolbar-footer{
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.26);
 }

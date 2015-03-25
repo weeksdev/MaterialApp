@@ -30,10 +30,18 @@ Ext.define('App.view.main.Main', {
         },
         autoScroll:true,
         items:[{
-            xtype:'paperpanel',
             xtype:'Login',
-            width:350,
+            width: 350,
             height:400
+        },{
+            xtype:'Login',
+            width: 350,
+            height:400
+        },{
+          xtype:'paperpanel',
+          width:800,
+          title:'Hello World',
+          html:'This is an empty panel'
         }]
     }/*{
         xtype: 'panel',

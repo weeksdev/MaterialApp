@@ -3,5 +3,6 @@ Ext.define('App.common.PaperPanel',{
     xtype:'paperpanel',
     bodyCls:'paper-panel',
     margin:10,
-    padding:10
+    padding:10,
+    border:0
 })

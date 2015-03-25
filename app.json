@@ -108,6 +108,9 @@
      */
     "js": [
         {
+            "path": "${ext.dir}/build/ext-all-rtl-debug.js"
+        },
+        {
             "path": "app.js",
             "bundle": true
         }
@@ -144,7 +147,8 @@
             "bootstrap": true
         },
         {
-            "path":"resources/styles/custom.css"
+            "path": "resources/styles/custom.css",
+            "bootstrap": false
         }
     ],
 
