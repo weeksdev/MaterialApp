@@ -38,10 +38,40 @@ Ext.define('App.view.main.Main', {
             width: 350,
             height:400
         },{
-          xtype:'paperpanel',
+          xtype:'paperform',
           width:800,
-          title:'Hello World',
-          html:'This is an empty panel'
+          title: 'Paper Form',
+          defaults:{
+              margin: 10
+          },
+          items: [{
+              xtype: 'datefield',
+              emptyText:'datefield'
+          }, {
+              xtype: 'textfield',
+              emptyText:'textfield'
+          }, {
+              xtype: 'textarea',
+              emptyText:'textarea'
+          }, {
+              xtype: 'timefield',
+              emptyText:'timefield'
+          }, {
+              xtype: 'combobox',
+              displayField: 'val',
+              valueField: 'val',
+              emptyText:'combobox',
+              store: Ext.create('Ext.data.Store', {
+                  fields: ['val'],
+                  data: [{
+                      val: 'Option 1'
+                  }, {
+                      val: 'Option 2'
+                  }, {
+                      val: 'Option 3'
+                  }]
+              })
+          }]
         }]
     }]
 });

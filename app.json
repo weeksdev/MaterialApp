@@ -145,10 +145,6 @@
         {
             "path": "bootstrap.css",
             "bootstrap": true
-        },
-        {
-            "path": "resources/styles/custom.css",
-            "bootstrap": false
         }
     ],
 

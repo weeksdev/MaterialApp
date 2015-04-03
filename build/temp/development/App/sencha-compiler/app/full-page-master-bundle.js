@@ -1,2 +1,2 @@
 // @tag full-page
-// @require C:\web\MaterialApp\app.js
+// @require c:\web\MaterialApp\app.js

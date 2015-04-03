@@ -1,4 +1,4 @@
-$image-search-path: 'C:/web/MaterialApp/build/production/App/resources';
+$image-search-path: 'c:/web/MaterialApp/build/production/App/resources';
 $theme-name:  'ext-theme-crisp' !default;
 $include-app-application: true;
 $include-app-common-paperform: true;
